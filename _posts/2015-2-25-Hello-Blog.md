@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Hello Blog
-version: 0.0.2
+version: 0.0.3
+postId: 1424877600997
 ---
 
 这是我的第一个博客。
