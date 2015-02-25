@@ -2,6 +2,7 @@
 layout: post
 title: 深入理解MVC, MVP, MVVM
 version: 0.0.1
+postId: 1424878568315
 ---
 
 
