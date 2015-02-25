@@ -115,9 +115,14 @@ img {
   max-width: none;
 }
 
-.date {
+.subtitle {
   font-style: italic;
   color: $gray;
+}
+
+.version {
+  font-weight: bold;
+  font-style: normal;
 }
 
 // Specify the color of the selection
