@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Hello Blog
-version: 0.0.1
+version: 0.0.2
 ---
-
-Hello Blog.
 
 这是我的第一个博客。
 
