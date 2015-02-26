@@ -288,6 +288,13 @@ footer {
   text-align: center;
 }
 
+.licenseAnouncement {
+  padding: 20px;
+  border: 1px solid rgb(218, 218, 218);
+  font-size: 14px;
+  margin: 50px 0;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
