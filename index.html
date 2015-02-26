@@ -7,7 +7,9 @@ layout: default
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
+      <div class="subtitle">
+        Version: <span class="version">{{ page.version }}</span> written on {{ page.date | date: "%B %e, %Y" }}
+      </span></span></div>
       <div class="entry">
         {{ post.content | truncatewords:40}}
       </div>
