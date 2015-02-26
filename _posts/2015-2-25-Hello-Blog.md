@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello Blog
-version: 0.0.3
+version: 0.0.4
 postId: 1424877600998
 excerpt_separator: <!--more-->
 ---
