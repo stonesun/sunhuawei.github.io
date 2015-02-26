@@ -8,10 +8,10 @@ layout: default
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       <div class="subtitle">
-        Version: <span class="version">{{ page.version }}</span> written on {{ page.date | date: "%B %e, %Y" }}
+        Version: <span class="version">{{ post.version }}</span> written on {{ post.date | date: "%B %e, %Y" }}
       </span></span></div>
       <div class="entry">
-        {{ post.content | truncatewords:40}}
+        {{ post.content | truncatewords:10}}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
