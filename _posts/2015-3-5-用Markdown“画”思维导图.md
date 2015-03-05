@@ -7,7 +7,7 @@ postId: 1425570876518
 
 > KityMinder 是一款强大的脑图可视化/编辑工具，由百度 FEX 团队开发并维护。
 
-[这里](https://github.com/SunHuawei/kityminder-core)是我的fork修改版。以下是基于该版本的一个实例。
+[这里](https://github.com/SunHuawei/kityminder-core)是我的fork修改版。以下是基于该版本的一个示例。
 
 <div class="km-container" minder-data-type="markdown" style="height: 500px">
 
