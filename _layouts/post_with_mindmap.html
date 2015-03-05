@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/kityminder.css" />
+<article class="post">
+  <div class="improve right hide-on-mobiles">
+    <a href="https://github.com/SunHuawei/sunhuawei.github.io/edit/master/{{ page.path }}">
+      <i class="fa fa-pencil"></i> &nbsp;Improve this page
+    </a>
+  </div>
+  <h1>{{ page.title }}</h1>
+  <div class="subtitle">
+    Version: <span class="version">{{ page.version }}</span> written on {{ page.date | date: "%B %e, %Y" }}
+  </span></span></div>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  {% include cc.html %}
+  {% include duoshuo.html %}
+</article>
+
+<script type="text/javascript" src="{{ site.baseurl }}/kity.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/kityminder.core.min.js"></script>
+<script type="text/javascript">
+var km = window.km = new kityminder.Minder();
+[].forEach.call(document.querySelectorAll(".km-container"), function(dom){
+	km.setup(dom);
+});
+</script>
