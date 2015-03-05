@@ -30,4 +30,4 @@ postId: 1425570876518
 
 另外该版本对markdown增加了hyperlink功能。可以方便添加超链接。
 
-点击[这里](https://github.com/SunHuawei/sunhuawei.github.io/new/master/_posts/2015-3-5-用Markdown“画”思维导图.md)查看该页面的markdown源码。
+点击[这里](https://github.com/SunHuawei/sunhuawei.github.io/edit/master/_posts/2015-3-5-%E7%94%A8Markdown%E2%80%9C%E7%94%BB%E2%80%9D%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.md)查看该页面的markdown源码。
