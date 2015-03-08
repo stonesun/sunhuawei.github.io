@@ -50,7 +50,7 @@ KityMinder是一套基于HTML5的思维导图生成工具。其支持不同格�
 测试
 
 新建post，命名为2015-3-8-Hello-MindMap.md，内容如下
-
+	
 	---
 	layout: post_with_mindmap
 	title: Hello MindMap
@@ -82,6 +82,7 @@ KityMinder是一套基于HTML5的思维导图生成工具。其支持不同格�
 1. 首先jekyll引擎会将可以识别的md文件翻译成html。
 2. 但是被包在html标签内的文本会被忽略。
 3. 页面加载KityMinder，其将会查找所有.km-container节点，将其解析成一个导图。
+
 ```
 var km = window.km = new kityminder.Minder();
 [].forEach.call(document.querySelectorAll(".km-container"), function(dom){
@@ -103,7 +104,7 @@ pre可以使你在预览你的md文件的时候，其显示为一个列表。用
 
 ## 为什么选择markdown
 
-相对于`png`，`svg`及`json`格式来说，`text`和`markdown`更直观，易书写。另外 `markdown`相对于`text`具有更丰富的功能，比如hyperlink。
+相对于`png`，`svg`及`json`格式来说，`text`和`markdown`更直观，易书写。另外`markdown`相对于`text`具有更丰富的功能，比如hyperlink。
 
 ## 我都做了哪些修改
 
