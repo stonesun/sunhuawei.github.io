@@ -99,7 +99,7 @@ var km = window.km = new kityminder.Minder();
 
 minder-data-type声明了其内容以何种方式解析。可选项有`png`, `svg`, `text`, `json`和`markdown`。
 
-pre可以使你在预览你的md文件的时候，其显示为一个列表。用其他标签，比如<div>，就会显示成一坨。
+pre可以使你在预览你的md文件的时候，其显示为一个列表。用其他标签，比如`<div>`，就会显示成一坨。
 
 ## 为什么选择markdown
 
