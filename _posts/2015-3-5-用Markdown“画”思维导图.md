@@ -50,31 +50,29 @@ KityMinder是一套基于HTML5的思维导图生成工具。其支持不同格�
 测试
 
 新建post，命名为2015-3-8-Hello-MindMap.md，内容如下
-```
 
----
-layout: post_with_mindmap
-title: Hello MindMap
----
-
-<pre class="km-container" minder-data-type="markdown" style="height: 500px">
-
-- 前端工程师
-  - [Web服务](http://www.google.com)
-    - Github
-    - Stackoverflow
-  - 前沿技术社区
-    - YDN/YUIConf/JSConf
-    - QCon/Velocity
-    - D2/WebRebuild
-    - NodeParty/HTML5研究小组
-    - UED Teams
-  - 移动终端
-    - jQueryMobile/HTML5/CSS3
-    
-</pre>
-
-```
+	---
+	layout: post_with_mindmap
+	title: Hello MindMap
+	---
+	
+	<pre class="km-container" minder-data-type="markdown" style="height: 500px">
+	
+	- 前端工程师
+	  - [Web服务](http://www.google.com)
+	    - Github
+	    - Stackoverflow
+	  - 前沿技术社区
+	    - YDN/YUIConf/JSConf
+	    - QCon/Velocity
+	    - D2/WebRebuild
+	    - NodeParty/HTML5研究小组
+	    - UED Teams
+	  - 移动终端
+	    - jQueryMobile/HTML5/CSS3
+	    
+	</pre>
+	
 也可以参照[文本源码](https://github.com/SunHuawei/sunhuawei.github.io/edit/master/_posts/2015-3-5-%E7%94%A8Markdown%E2%80%9C%E7%94%BB%E2%80%9D%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.md)。
 
 运行查看结果。
