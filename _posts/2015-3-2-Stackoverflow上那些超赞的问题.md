@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stackoverflow上那些超赞的问题
-version: 0.0.2
+version: 0.0.3
 postId: 1425309887634
 ---
 
@@ -9,6 +9,21 @@ Stackoverflow.com是目前最流行的最专业的编程问答社区。其以高
 
 
 本文旨在收集那些编程方面votes人数最多，关注度最高的问题。
+
+
+## [Why is processing a sorted array faster than an unsorted array?](http://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-an-unsorted-array)
+
+为啥排序的数组比不排序的数组处理的快？
+
+题主写了一段代码，大致是一个大数组，随机产生0-256的值填入每一项，然后做大于128的值的加和（程序见原文）。结果是排序过的数组比不排序的数组速度快。
+
+博主也抱着试试看的态度写了个js版的，见[这里](http://jsfiddle.net/yhvbgryd/1/)。自我的Intelx86处理器里，运行结果如下
+
+  Unsorted: 25677.000ms
+  Sorted: 13499.000ms 
+
+果然，如题主所说。是不是很神奇？为啥？答案就是“分支预测”（[Branch Prediction](http://en.wikipedia.org/wiki/Branch_predication)）。与之相关的是“分支预测器”（[Branch predictor](http://en.wikipedia.org/wiki/Branch_predictor)）;
+
 
 ## [How do JavaScript closures work?](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 
