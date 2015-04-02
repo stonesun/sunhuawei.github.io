@@ -59,7 +59,6 @@ baseurl: ""
 # Conversion
 markdown:    redcarpet
 highlighter: pygments
-lsi:         false
 excerpt_separator: "\n\n"
 permalink: /:title/
 
