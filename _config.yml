@@ -57,10 +57,11 @@ baseurl: ""
 # permalink: /:title/
 
 # Conversion
-markdown:    kramdown
+markdown:    redcarpet
 highlighter: pygments
 lsi:         false
 excerpt_separator: "\n\n"
+permalink: /:title/
 
 # The release of Jekyll Now that you're using
 version: v1.0.0
